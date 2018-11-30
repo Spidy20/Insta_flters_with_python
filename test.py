@@ -47,8 +47,6 @@ for (x, y, w, h) in fl:
 for (x, y, w, h) in ey:
     frame=put_glass(glass,img, x, y, w, h)
     # img = cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
-
-
 cv2.imshow('image',frame)
 cv2.waitKey(20000)& 0xff
 cv2.destroyAllWindows()

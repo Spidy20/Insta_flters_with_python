@@ -11,10 +11,8 @@ glass=cv2.imread('C:/Users/kusha/PycharmProjects/Filters_cv/Filters/glasses.png'
 def put_hat(hat, fc, x, y, w, h):
     face_width = w
     face_height = h
-
     hat_width = face_width + 1
     hat_height = int(0.50 * face_height) + 1
-
     hat = cv2.resize(hat, (hat_width, hat_height))
 
     for i in range(hat_height):
@@ -40,15 +38,11 @@ def put_glass(glass, fc, x, y, w, h):
                 if glass[i][j][k] < 235:
                     fc[y + i - int(-0.20 * face_height)][x + j][k] = glass[i][j][k]
     return fc
-
-
 for (x, y, w, h) in fl:
     frame = put_hat(hat, img, x, y, w, h)
 for (x, y, w, h) in ey:
     frame=put_glass(glass,img, x, y, w, h)
     # img = cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
-
-
 cv2.imshow('image',frame)
 cv2.waitKey(8000)& 0xff
 cv2.destroyAllWindows()
