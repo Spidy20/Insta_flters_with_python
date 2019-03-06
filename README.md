@@ -29,7 +29,6 @@
 
 ### Video demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ldEBGZQDXLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[linkname](https://youtu.be/ldEBGZQDXLY)
 ## Just follow☝️ me and Star⭐ my repository 
     
