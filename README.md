@@ -29,6 +29,6 @@
 
 ### Video demo
 
-[linkname](https://youtu.be/ldEBGZQDXLY)
+[Youtube](https://youtu.be/ldEBGZQDXLY)
 ## Just follow☝️ me and Star⭐ my repository 
     
